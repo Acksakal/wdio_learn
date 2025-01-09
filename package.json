@@ -1,0 +1,19 @@
+{
+  "name": "wdio_pom",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "wdio learning",
+  "private": true,
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@wdio/cli": "^8.38.1",
+    "@wdio/local-runner": "^8.38.0",
+    "@wdio/mocha-framework": "^8.38.0",
+    "@wdio/spec-reporter": "^8.38.0",
+    "eslint": "^9.4.0",
+    "globals": "^15.3.0"
+  }
+}
